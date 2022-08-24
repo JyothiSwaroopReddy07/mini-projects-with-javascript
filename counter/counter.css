@@ -1,0 +1,66 @@
+body{
+    margin: 0px;
+    background-color: #CBF4F5;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first{
+    margin: 50px;
+    width: 80%;
+    height: 45vh;
+    background: linear-gradient(to top right, #5FFBF1,#86A8E7, #D16BA5 );
+}
+.first h1{
+    color: white;
+    margin: 80px;
+    font-size: 25px;
+    word-spacing: 25px;
+    letter-spacing: 10px;
+    text-align: center;
+}
+.second{
+    width: 50%;
+    height: 30vh;
+    background-color: #4E5555;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.three{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.three input{
+    font-size:40px;
+    height: 50px;
+    width: 30%;
+}
+.three button{
+    height: 50px;
+    width: 10%;
+    font-weight: 900;
+    border-radius: 25px;
+    border: 0px;
+    background-color: lightgray;
+}
+button:hover {
+    box-shadow: 10px 10px 8px white;
+}
+
+.display {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display span{
+    font-size: 30px;
+    font-weight: 800;
+}
